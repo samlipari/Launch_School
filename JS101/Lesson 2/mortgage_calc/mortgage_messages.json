@@ -1,0 +1,8 @@
+{
+  "welcome": "Welcome to Mortgage Calculator!",
+  "loanAmount": "What is the loan amount?",
+  "validNum": "Please enter a valid number above 0.",
+  "apr": "What is the Annual Percentage Rate (APR)?",
+  "loanDuration": "How many years is the loan term?",
+  "again": "Would you like to do another calculation? (y/n)"
+}

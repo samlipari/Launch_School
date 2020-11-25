@@ -10,7 +10,7 @@ function isValidNumber(num) {
 }
 
 function aprValidNumber(num) {
-  return num === '' || Number.isNaN(Number(num));
+  return num === '' || Number.isNaN(Number(num)) || num < 0;
 }
 
 prompt(MESSAGES['welcome']);
@@ -63,7 +63,7 @@ while (true) {
   prompt(MESSAGES['again']);
   let again = readline.question();
 
-  if (again[0].toLowerCase() !== 'y') {
+  if (again && again[0].toLowerCase() !== 'y') {
     break;
   }
 

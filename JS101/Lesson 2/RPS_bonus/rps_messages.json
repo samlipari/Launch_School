@@ -1,0 +1,12 @@
+{
+
+  "playerWinsGame": "You win!",
+  "compWinsGame": "Computer wins!",
+  "tie": "It's a tie!",
+  "choose": "Choose one: rock (r), paper (p), scissors (sc), lizard (l), spock (sp)",
+  "invalidChoice": "That's not a valid choice",
+  "compGrandWinner": "Computer is the grand winner of the match!",
+  "playerGrandWinner": "You are the grand winner of the match!",
+  "playAgain": "Do you want to play again (y/n)?",
+  "playAgainError": "Please enter 'y' or 'n'."
+}

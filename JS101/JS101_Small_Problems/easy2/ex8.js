@@ -1,0 +1,28 @@
+function oddities(arr) {
+  let oddArr = [];
+  for (let index = 0; index < arr.length; index += 2) {
+    oddArr.push(arr[index]);
+  }
+  return oddArr;
+}
+
+
+console.log(oddities([2, 3, 4, 5, 6])); // logs [2, 4, 6]
+console.log(oddities([1, 2, 3, 4, 5, 6])); // logs [1, 3, 5]
+console.log(oddities(["abc", "def"])); // logs ['abc']
+console.log(oddities([123])); // logs [123]
+console.log(oddities([])); // logs []
+
+function evenIndex(arr) {
+  let even = [];
+  for (let index = 1; index < arr.length; index += 2) {
+    even.push(arr[index]);
+  }
+  return even;
+}
+
+console.log(evenIndex([2, 3, 4, 5, 6]));
+console.log(evenIndex([1, 2, 3, 4, 5, 6]));
+console.log(evenIndex(["abc", "def"]));
+console.log(evenIndex([123]));
+console.log(evenIndex([]));
